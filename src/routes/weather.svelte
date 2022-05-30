@@ -1,4 +1,4 @@
-<script context="module">
+<!-- <script context="module">
 	export async function load({ fetch }) {
 		const response = await fetch(`/api/weather`);
 
@@ -14,7 +14,7 @@
 			props: await response.json()
 		};
 	}
-</script>
+</script> -->
 
 <script>
 	export let weather;
